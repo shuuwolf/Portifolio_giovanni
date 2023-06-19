@@ -1,0 +1,69 @@
+@media screen and (max-width:992px){
+    section.introduction h1{
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    section.projects .project_card .btn_project{
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    section.projects .project_card h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    section.projects .project_card h4{
+        font-size: 23px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    nav.desktop_nav{
+        display: none;
+    }
+
+    header nav.mobile_nav{
+        display: block;
+    }
+
+    header .logo{
+        margin-bottom: 6px;
+    }
+
+    section.introduction h2{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    section.introduction p{
+        font-size: 25px;
+    }
+
+    .contact_icons{
+        justify-content: center;
+        width: 100%;
+    }
+
+    section.projects h2{
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+    }
+
+    section.about {
+        padding: 60px 0;
+    }
+
+    section.about h2{
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    section.about p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

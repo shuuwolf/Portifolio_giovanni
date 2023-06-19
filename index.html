@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Plugins CDNs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Normal Stylesheets -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media-queries.css">
+</head>
+<body>
+    <header>
+        <div class="container-lg">
+            <div class="logo">Giovanni preto</div>
+
+            <nav class="desktop_nav">
+                <ul>
+                    <li><a href="#!">Projects</a></li>
+                    <li><a href="#!">About</a></li>
+                    <li><a href="#!">Resume</a></li>
+                </ul>
+            </nav><!-- /desktop_nav -->
+
+            <nav class="mobile_nav">
+                <div class="mobile_trigger" onclick="handleMobileMenu()" role="button">
+                    <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12.75H5C4.80109 12.75 4.61032 12.671 4.46967 12.5303C4.32902 12.3897 4.25 12.1989 4.25 12C4.25 11.8011 4.32902 11.6103 4.46967 11.4697C4.61032 11.329 4.80109 11.25 5 11.25H19C19.1989 11.25 19.3897 11.329 19.5303 11.4697C19.671 11.6103 19.75 11.8011 19.75 12C19.75 12.1989 19.671 12.3897 19.5303 12.5303C19.3897 12.671 19.1989 12.75 19 12.75Z" fill="#000"/>
+                        <path d="M19 8.25H5C4.80109 8.25 4.61032 8.17098 4.46967 8.03033C4.32902 7.88968 4.25 7.69891 4.25 7.5C4.25 7.30109 4.32902 7.11032 4.46967 6.96967C4.61032 6.82902 4.80109 6.75 5 6.75H19C19.1989 6.75 19.3897 6.82902 19.5303 6.96967C19.671 7.11032 19.75 7.30109 19.75 7.5C19.75 7.69891 19.671 7.88968 19.5303 8.03033C19.3897 8.17098 19.1989 8.25 19 8.25Z" fill="#000"/>
+                        <path d="M19 17.25H5C4.80109 17.25 4.61032 17.171 4.46967 17.0303C4.32902 16.8897 4.25 16.6989 4.25 16.5C4.25 16.3011 4.32902 16.1103 4.46967 15.9697C4.61032 15.829 4.80109 15.75 5 15.75H19C19.1989 15.75 19.3897 15.829 19.5303 15.9697C19.671 16.1103 19.75 16.3011 19.75 16.5C19.75 16.6989 19.671 16.8897 19.5303 17.0303C19.3897 17.171 19.1989 17.25 19 17.25Z" fill="#000"/>
+                    </svg>
+                </div><!-- /mobile_trigger -->
+                <ul class="mobile_menu_content d-none">
+                    <li><a href="#!">Projects</a></li>
+                    <li><a href="#!">About</a></li>
+                    <li><a href="#!">Resume</a></li>
+                </ul>
+            </nav><!-- /mobile_nav -->
+        </div><!-- /container -->
+    </header>
+
+    <section class="introduction">
+        <div class="container-lg h-100 d-flex align-items-center">
+            <div class="row mt-10">
+                <div class="col-12">
+                    <h1>Hello! I’m Giovanni</h1>
+                    <h2 class="mb-4 mb-md-5">Glad you’re here</h2>
+
+                    <p class="mb-5">I recently graduated from UX/UI Design @ UC Berkeley - My goal is to design beautiful products and simple experiences. Overall, what I really want to do is make people’s lives easier and practical, so they can spend time with what really matters.</p>
+
+                    <p>I'm currently in the market for a new career opportunity that will provide me with new challenges and opportunities for growth | Based in San Francisco - CA.</p>
+
+                    <div class="contact_icons mt-5">
+                        <a href="#!">
+                            <svg width="36" height="38" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 0.997131C1.79 0.997131 0 2.80908 0 5.04617V33.3895C0 35.6265 1.79 37.4385 4 37.4385H32C34.21 37.4385 36 35.6265 36 33.3895V5.04617C36 2.80908 34.21 0.997131 32 0.997131H4ZM4 5.04617H32V33.3895H4V5.04617ZM9.55859 7.71126C7.84459 7.71126 6.81641 8.75424 6.81641 10.1431C6.81641 11.5319 7.84472 12.5709 9.38672 12.5709C11.1007 12.5709 12.1289 11.5319 12.1289 10.1431C12.1289 8.75424 11.1006 7.71126 9.55859 7.71126ZM6.95312 15.1688V29.3404H12V15.1688H6.95312ZM16.1641 15.1688V29.3404H21.2109V21.5942C21.2109 19.2883 22.8362 18.9568 23.3242 18.9568C23.8122 18.9568 25.1172 19.4523 25.1172 21.5942V29.3404H30V21.5942C30 17.1464 28.0475 15.1688 25.6055 15.1688C23.1635 15.1688 21.8609 15.9919 21.2109 17.1458V15.1688H16.1641Z" fill="black"/>
+                            </svg>
+                        </a>
+
+                        <a href="#!">
+                            <svg width="45" height="38" viewBox="0 0 45 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M45 5.5523C45 3.04696 42.975 0.997131 40.5 0.997131H4.5C2.025 0.997131 0 3.04696 0 5.5523V32.8833C0 35.3887 2.025 37.4385 4.5 37.4385H40.5C42.975 37.4385 45 35.3887 45 32.8833V5.5523ZM40.5 5.5523L22.5 16.9402L4.5 5.5523H40.5ZM40.5 32.8833H4.5V10.1075L22.5 21.4954L40.5 10.1075V32.8833Z" fill="black"/>
+                            </svg>  
+                        </a>
+
+                        <a href="#!">
+                            <svg width="36" height="38" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 0.997131C4.486 0.997131 0 5.53813 0 11.1197V27.3159C0 32.8975 4.486 37.4385 10 37.4385H26C31.514 37.4385 36 32.8975 36 27.3159V11.1197C36 5.53813 31.514 0.997131 26 0.997131H10ZM10 5.04617H26C29.308 5.04617 32 7.77117 32 11.1197V27.3159C32 30.6644 29.308 33.3895 26 33.3895H10C6.692 33.3895 4 30.6644 4 27.3159V11.1197C4 7.77117 6.692 5.04617 10 5.04617ZM28 7.07069C27.4696 7.07069 26.9609 7.28399 26.5858 7.66366C26.2107 8.04333 26 8.55827 26 9.09521C26 9.63215 26.2107 10.1471 26.5858 10.5268C26.9609 10.9064 27.4696 11.1197 28 11.1197C28.5304 11.1197 29.0391 10.9064 29.4142 10.5268C29.7893 10.1471 30 9.63215 30 9.09521C30 8.55827 29.7893 8.04333 29.4142 7.66366C29.0391 7.28399 28.5304 7.07069 28 7.07069ZM18 9.09521C12.486 9.09521 8 13.6362 8 19.2178C8 24.7994 12.486 29.3404 18 29.3404C23.514 29.3404 28 24.7994 28 19.2178C28 13.6362 23.514 9.09521 18 9.09521ZM18 13.1443C21.308 13.1443 24 15.8693 24 19.2178C24 22.5664 21.308 25.2914 18 25.2914C14.692 25.2914 12 22.5664 12 19.2178C12 15.8693 14.692 13.1443 18 13.1443Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </div><!-- /contact_icons -->
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </section><!-- /introduction -->
+
+    <section class="projects">
+        <div class="container-lg">
+            <h2>Projects</h2>
+            <div class="row gy-5">
+                <div class="col-12 col-sm-10 col-md-6 mx-auto">
+                    <div class="project_card p-4 p-md-5">
+                        <div class="mb-4 mb-md-0">
+                            <p class="mb-4 mb-md-5">Product Design</p>
+                            <h3>GOEXPP</h3>
+                            <h4>Travel App</h4>
+                        </div>
+                        <div>
+                            <img src="./assets/imgs/Iphone-mochups.png" class="w-100" alt="GOEXPP - Travel App">
+                            <a href="#!" class="btn_project">View Case Study</a>
+                        </div>
+                    </div><!-- /project_card -->
+                </div><!-- /col -->
+
+                <div class="col-12 col-sm-10 col-md-6 mx-auto">
+                    <div class="project_card p-4 p-md-5">
+                        <div class="mb-4 mb-md-0">
+                            <p class="mb-4 mb-md-5">Website Redesign</p>
+                            <h3>MCCLA</h3>
+                            <h4>Nonprofit Website Redesign</h4>
+                        </div>
+
+                        <div>
+                            <img src="./assets/imgs/mccla-img.png" class="w-100" alt="MCCLA - Nonprofit Website Redesign">
+                            <a href="#!" class="btn_project">View Case Study</a>
+                        </div>
+                    </div><!-- /project_card -->
+                </div><!-- /col -->
+
+                <div class="col-12 col-sm-10 col-md-6 mx-auto">
+                    <div class="project_card p-4 p-md-5">
+                        <div class="mb-4 mb-md-0">
+                            <p class="mb-4 mb-md-5">Mobile App Design Challenge </p>
+                            <h3>Deal Tracker</h3>
+                        </div>
+
+                        <div>
+                            <img src="./assets/imgs/deal-tracker-img.png" class="w-100" alt="Deal Tracker - Mobile App Design Challenge">
+                            <a href="#!" class="btn_project">View Case Study</a>
+                        </div>
+                    </div><!-- /project_card -->
+                </div><!-- /col -->
+
+                <div class="col-12 col-sm-10 col-md-6 mx-auto">
+                    <div class="project_card p-4 p-md-5">
+                        <div class="mb-4 mb-md-0">
+                            <p class="mb-4 mb-md-5">Product Design</p>
+                            <h3>BeU</h3>
+                            <h4>Mental Health App</h4>
+                        </div>
+
+                        <div>
+                            <img src="./assets/imgs/BeU-img.png" class="w-100" alt="BeU - Mental Health App">
+                            <a href="#!" class="btn_project">On Progress</a>
+                        </div>
+                    </div><!-- /project_card -->
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </section><!-- /projects -->
+    
+    <section class="about">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <h2 class="text-center text-md-start">About me</h2>
+                </div><!-- /col -->
+                <div class="col-lg-7 order-1 order-lg-0 mt-5 mt-lg-0">
+                    <p class="mb-5">I was born and raised in Sao Paulo, Brazil back in 1993. As a millennial, I grew up during a new era of technology. I was fascinated with the way technological advances have changed the world and I always wanted to be part of it.</p>
+    
+                    <p class="mb-5">I attended an engineering college and worked as a process engineer intern while I was studying. After I graduated, I decided to move to San Francisco - CA to start a new career in UX/UI Design.</p>
+    
+                    <p class="mb-5">I’m a second-generation Italian-Brazilian. Coming from a bicultural family and from a foreign country gives me a different and unique point of view on people’s needs and how they interact with screens.</p>
+    
+                    <p class="mb-5">While I’m at work I like to be creative, learning new things and collaborate with colleagues. On my free time, you’ll find me at the pottery studio, creating something beautiful from a lump of clay and doing DIY projects. I also enjoy outdoors activities such as hiking, camping and traveling.</p>
+    
+                    <p>I’m looking forward to new opportunities for grow and development to become a well-rounded professional.</p>
+                </div><!-- /col -->
+    
+                <div class="col-lg-5 text-center order-0 order-lg-1">
+                    <img src="./assets/imgs/giovanni-picture.png" alt="Giovanni Preto's Picture">
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </section><!-- /about -->
+
+    <footer>
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
+                        <div></div>
+                        <p class="mb-0 text-center text-md-start">©2023. Design and develop by Giovanni Preto</p>
+                        <div class="contact_icons mt-5 mt-lg-0">
+                            <a href="#!">
+                                <svg width="36" height="38" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 0.997131C1.79 0.997131 0 2.80908 0 5.04617V33.3895C0 35.6265 1.79 37.4385 4 37.4385H32C34.21 37.4385 36 35.6265 36 33.3895V5.04617C36 2.80908 34.21 0.997131 32 0.997131H4ZM4 5.04617H32V33.3895H4V5.04617ZM9.55859 7.71126C7.84459 7.71126 6.81641 8.75424 6.81641 10.1431C6.81641 11.5319 7.84472 12.5709 9.38672 12.5709C11.1007 12.5709 12.1289 11.5319 12.1289 10.1431C12.1289 8.75424 11.1006 7.71126 9.55859 7.71126ZM6.95312 15.1688V29.3404H12V15.1688H6.95312ZM16.1641 15.1688V29.3404H21.2109V21.5942C21.2109 19.2883 22.8362 18.9568 23.3242 18.9568C23.8122 18.9568 25.1172 19.4523 25.1172 21.5942V29.3404H30V21.5942C30 17.1464 28.0475 15.1688 25.6055 15.1688C23.1635 15.1688 21.8609 15.9919 21.2109 17.1458V15.1688H16.1641Z" fill="black"/>
+                                </svg>
+                            </a>
+        
+                            <a href="#!">
+                                <svg width="45" height="38" viewBox="0 0 45 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M45 5.5523C45 3.04696 42.975 0.997131 40.5 0.997131H4.5C2.025 0.997131 0 3.04696 0 5.5523V32.8833C0 35.3887 2.025 37.4385 4.5 37.4385H40.5C42.975 37.4385 45 35.3887 45 32.8833V5.5523ZM40.5 5.5523L22.5 16.9402L4.5 5.5523H40.5ZM40.5 32.8833H4.5V10.1075L22.5 21.4954L40.5 10.1075V32.8833Z" fill="black"/>
+                                </svg>  
+                            </a>
+        
+                            <a href="#!">
+                                <svg width="36" height="38" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10 0.997131C4.486 0.997131 0 5.53813 0 11.1197V27.3159C0 32.8975 4.486 37.4385 10 37.4385H26C31.514 37.4385 36 32.8975 36 27.3159V11.1197C36 5.53813 31.514 0.997131 26 0.997131H10ZM10 5.04617H26C29.308 5.04617 32 7.77117 32 11.1197V27.3159C32 30.6644 29.308 33.3895 26 33.3895H10C6.692 33.3895 4 30.6644 4 27.3159V11.1197C4 7.77117 6.692 5.04617 10 5.04617ZM28 7.07069C27.4696 7.07069 26.9609 7.28399 26.5858 7.66366C26.2107 8.04333 26 8.55827 26 9.09521C26 9.63215 26.2107 10.1471 26.5858 10.5268C26.9609 10.9064 27.4696 11.1197 28 11.1197C28.5304 11.1197 29.0391 10.9064 29.4142 10.5268C29.7893 10.1471 30 9.63215 30 9.09521C30 8.55827 29.7893 8.04333 29.4142 7.66366C29.0391 7.28399 28.5304 7.07069 28 7.07069ZM18 9.09521C12.486 9.09521 8 13.6362 8 19.2178C8 24.7994 12.486 29.3404 18 29.3404C23.514 29.3404 28 24.7994 28 19.2178C28 13.6362 23.514 9.09521 18 9.09521ZM18 13.1443C21.308 13.1443 24 15.8693 24 19.2178C24 22.5664 21.308 25.2914 18 25.2914C14.692 25.2914 12 22.5664 12 19.2178C12 15.8693 14.692 13.1443 18 13.1443Z" fill="black"/>
+                                </svg>
+                            </a>
+                        </div><!-- /contact_icons -->
+                    </div>
+                </div><!-- /col -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </footer>
+
+    <!-- Plugins CDNs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+    <!-- Normal Javascript -->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
