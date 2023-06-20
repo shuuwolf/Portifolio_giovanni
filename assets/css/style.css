@@ -250,3 +250,188 @@ footer p{
     color: #000000;
 }
 
+/*** CASE STUDY PAGE ***/
+
+header .return_btn{
+    text-decoration: none;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+section.banner{
+    padding: 100px 0;
+}
+
+section.banner h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    color: #000000;
+}
+
+section.banner h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+section.banner p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 175%;
+
+    color: #000000;
+}
+
+.box_content{
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 60px;
+}
+
+.box_content h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.box_content h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.box_content blockquote{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 175%;
+    color: #000000;
+}
+
+.box_content ul{
+    margin-left: 1rem;
+}
+
+.box_content ul li{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 175%;
+    /* or 52px */
+
+
+    color: #000000;
+}
+
+.box_content ul li{
+    font-weight: 400;
+}
+
+section{
+    padding: 50px 0;
+}
+
+section h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #000000;
+}
+
+section h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 77px;
+    letter-spacing: -0.022em;
+
+    color: #000000;
+}
+
+section h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 77px;
+    letter-spacing: -0.022em;
+
+    color: #000000;
+}
+
+section p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 175%;
+    color: #000000;
+}
+
+section.currently_area .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.currently_area .box div:first-child{
+    background: #808080;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    height: 45px;
+    width: 45px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+section.currently_area .box div:nth-child(2){
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    color: #808080;
+    margin-top: 12px;
+}
+
+section.currently_area .box.active div:first-child{
+    background: #000;
+}
+
+section.currently_area .box.active div:nth-child(2){
+    color: #000000;
+}
+
+section ul{
+    margin-left: 1.5rem;
+}
+
+section ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 175%;
+    color: #000000;
+}
+
+
